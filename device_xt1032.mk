@@ -24,8 +24,8 @@ LOCAL_PATH := device/motorola/xt1032
 
 #DTB and libs teammex
 PRODUCT_COPY_FILES := \
-       device/motorola/falcon/dtb/dtbtool:out/host/linux-x86/bin/dtbTool \
-       device/motorola/falcon/dtb/libtime_genoff.so:out/target/product/xt1032/obj/lib/libtime_genoff.so \
+       device/motorola/xt1032/dtb/dtbtool:out/host/linux-x86/bin/dtbTool \
+       device/motorola/xt1032/dtb/libtime_genoff.so:out/target/product/xt1032/obj/lib/libtime_genoff.so \
 
 # xt1053 specific overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
